@@ -3,5 +3,12 @@ function Scooter(year, color, model){
   this.color=color;
   this.model=model
 }
-const Driver={name, age, experience}
-const PickupLocation={adress, city}
+function Driver(name, age, experience){
+  this.name=name
+  this.age=age
+  this.experience=experience
+}
+function PickupLocation(adress, city){
+  this.adress=adress
+  this.city=city
+}
